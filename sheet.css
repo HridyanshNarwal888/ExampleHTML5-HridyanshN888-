@@ -1,0 +1,39 @@
+@font-face {
+  font-family: xyz;
+  src: url(font.otf);
+}
+#title {
+  font-family: xyz;
+  margin: auto;
+  font-size: 300%;
+  color: 	white;
+  z-index: 1;
+  text-align: center;
+  mix-blend-mode: difference;
+}
+#para {
+  font-family: xyz;
+  margin: auto;
+  font-size: 200%;
+  color: 	white;
+  z-index: 1;
+  text-align: center;
+  mix-blend-mode: difference;
+}
+#vdo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+#container {
+  line-height: 1.6;
+}
+#foot {
+  font-family: xyz;
+  mix-blend-mode: difference;
+  z-index: 1;
+  color: white;
+}
